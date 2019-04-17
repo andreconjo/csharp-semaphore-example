@@ -1,0 +1,51 @@
+A : Verificando semaforos...
+B : Verificando semaforos...
+C : Verificando semaforos...
+E : Verificando semaforos...
+D : Verificando semaforos...
+Total de permissoes: 3. Numero de Threads: 5
+B : usando uma permissao.
+B : executando 0
+A : usando uma permissao.
+A : executando 0
+C : usando uma permissao.
+C : executando 0
+B : executando 1
+A : executando 1
+C : executando 1
+B : executando 2
+A : executando 2
+C : executando 2
+A : executando 3
+C : executando 3
+B : executando 3
+A : executando 4
+B : executando 4
+C : executando 4
+A : executando 5
+C : executando 5
+B : executando 5
+Thread A : libera o semáforo.
+Thread A : contagem de semáforo anterior: 1
+E : usando uma permissao.
+E : executando 0
+Thread B : libera o semáforo.
+Thread B : contagem de semáforo anterior: 1
+Thread C : libera o semáforo.
+Thread C : contagem de semáforo anterior: 1
+D : usando uma permissao.
+D : executando 0
+E : executando 1
+D : executando 1
+E : executando 2
+D : executando 2
+E : executando 3
+D : executando 3
+E : executando 4
+D : executando 4
+E : executando 5
+D : executando 5
+Thread E : libera o semáforo.
+Thread E : contagem de semáforo anterior: 2
+Thread D : libera o semáforo.
+Thread D : contagem de semáforo anterior: 3
